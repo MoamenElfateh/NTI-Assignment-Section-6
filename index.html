@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="">
+    <meta name="Keywords" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>FORM</title>
+</head>
+
+<body>
+
+    <div class="container d-flex">
+
+        <section id="section-1"
+            class="width-10 d-flex flex-column text-align-center padding-top-3 justify-content-between">
+            <div class="logo height-60 d-flex flex-column justify-content-between">
+                <div><img src="./images/Logo.png" alt="Logo"></div>
+                <div><img src="./images/Home.png" alt="Home"></div>
+                <div><img src="./images/Notifications.png" alt="Notifications"></div>
+                <div><img src="./images/Calendar.png" alt="Calendar"></div>
+                <div><img src="./images/Chart.png" alt="Chart"></div>
+                <div><img src="./images/Person.png" alt="Person"></div>
+            </div>
+            <div class="settings">
+                <img src="./images/Settings.png" alt="Settings">
+            </div>
+        </section>
+
+        <section id="section-2"
+            class="width-25 d-flex flex-column text-align-center padding-top-3 justify-content-between">
+            <div class="functions height-60 d-flex flex-column justify-content-between  align-self-center">
+                <div class="d-flex">
+                    <div class="align-self-center"><img src="./images/Back.png" alt="Back"></div>
+                    <p class="align-self-center">Settings</p>
+                </div>
+                <div class="d-flex">
+                    <div class="align-self-center"><img src="./images/Pen.png" alt="Pen"></div>
+                    <p class="align-self-center">Edit Profile</p>
+                </div>
+                <div class="d-flex">
+                    <div class="align-self-center"><img src="./images/Notification.png" alt="Notification"></div>
+                    <p class="align-self-center">Notification</p>
+                </div>
+                <div class="d-flex">
+                    <div class="align-self-center"><img src="./images/Security.png" alt="Security"></div>
+                    <p class="align-self-center">Security</p>
+                </div>
+                <div class="d-flex">
+                    <div class="align-self-center"><img src="./images/Appearance.png" alt="Appearance"></div>
+                    <p class="align-self-center">Appearance</p>
+                </div>
+                <div class="d-flex">
+                    <div class="align-self-center"><img src="./images/Help.png" alt="Help"></div>
+                    <p class="align-self-center">Help</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-3" class="width-65 d-flex flex-column padding-top-3">
+            <div class="align-self-end padding-right-4">
+                <img src="./images/Group.png" alt="Notification">
+                <img src="./images/profile60.png" alt="Profile">
+            </div>
+            <div class="info width-80 align-self-center ">
+
+                <div class="d-flex justify-content-between margin-bottom-3">
+                    <h1 class="align-self-center">Edit Profile</h1>
+                    <img src="./images/profile120.png" alt="Profile">
+                </div>
+                <form action="#" method="get">
+                    <div class="name d-flex justify-content-between">
+                        <div>
+                            <div><label for="First-Name">First Name</label></div>
+                            <input class="name-input-style" type="text" name="First-Name" id="First-Name"
+                                placeholder="Mehrab">
+                        </div>
+                        <div>
+                            <div><label for="Last-Name">Last Name</label></div>
+                            <input class="name-input-style" type="text" name="Last-Name" id="Last-Name"
+                                placeholder="Bozorgi">
+                        </div>
+                    </div>
+                    <div>
+                        <div><label for="Email">Email</label></div>
+                        <input type="email" name="Email" id="Email" placeholder="Mehrabbozorgi.business@gmail.com">
+                    </div>
+                    <div>
+                        <div><label for="Address">Address</label></div>
+                        <input type="text" name="Address" id="Address" placeholder="33062 Zboncak isle">
+                    </div>
+                    <div>
+                        <div><label for="Contact-Number">Contact Number</label></div>
+                        <input type="tel" name="Contact-Number" id="Contact-Number" placeholder="58077.79">
+                    </div>
+                    <div class="location d-flex justify-content-between">
+                        <div>
+                            <div><label for="City">City</label></div>
+                            <select name="City" id="City">
+                                <option value="Mehrab">Mehrab</option>
+                                <option value="Suez">Suez</option>
+                                <option value="Ismailia">Ismailia</option>
+                                <option value="Portsaid">Portsaid</option>
+                            </select>
+                        </div>
+                        <div>
+                            <div><label for="State">State</label></div>
+                            <select name="State" id="State">
+                                <option value="Bozorgi">Bozorgi</option>
+                                <option value="Egypt">Egypt</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <div><label for="Password">Password</label></div>
+                        <input type="tel" name="Password" id="Password" placeholder="sbdfbnd65sfdvb s">
+                    </div>
+                    <div class="buttons margin-y-3">
+                        <button class="padding-x-6 margin-right-2" type="reset">Cancel</button>
+                        <button class="padding-x-6" type="submit">Save</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </div>
+</body>
+
+</html>
