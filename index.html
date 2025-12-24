@@ -76,34 +76,45 @@
                     <img src="./images/profile120.png" alt="Profile">
                 </div>
                 <form action="#" method="get">
+
                     <div class="name d-flex justify-content-between">
                         <div>
                             <div><label for="First-Name">First Name</label></div>
-                            <input class="name-input-style" type="text" name="First-Name" id="First-Name"
+                            <input class="padding-left-2" type="text" name="First-Name" id="First-Name"
                                 placeholder="Mehrab">
                         </div>
                         <div>
                             <div><label for="Last-Name">Last Name</label></div>
-                            <input class="name-input-style" type="text" name="Last-Name" id="Last-Name"
+                            <input class="padding-left-2" type="text" name="Last-Name" id="Last-Name"
                                 placeholder="Bozorgi">
                         </div>
                     </div>
-                    <div>
+
+                    <div class="email">
                         <div><label for="Email">Email</label></div>
-                        <input type="email" name="Email" id="Email" placeholder="Mehrabbozorgi.business@gmail.com">
+                        <input class="padding-left-1" type="email" name="Email" id="Email"
+                            placeholder="Mehrabbozorgi.business@gmail.com">
                     </div>
-                    <div>
+
+                    <div class="address">
                         <div><label for="Address">Address</label></div>
-                        <input type="text" name="Address" id="Address" placeholder="33062 Zboncak isle">
+                        <div class="d-flex justify-content-between">
+                            <input class="padding-left-1" type="text" name="Address" id="Address"
+                                placeholder="33062 Zboncak isle">
+                            <img class="align-self-center margin-bottom-half" src="./images/Checked.png" alt="Checked">
+                        </div>
                     </div>
-                    <div>
+
+                    <div class="contact">
                         <div><label for="Contact-Number">Contact Number</label></div>
-                        <input type="tel" name="Contact-Number" id="Contact-Number" placeholder="58077.79">
+                        <input class="padding-left-1" type="tel" name="Contact-Number" id="Contact-Number"
+                            placeholder="58077.79">
                     </div>
+
                     <div class="location d-flex justify-content-between">
                         <div>
                             <div><label for="City">City</label></div>
-                            <select name="City" id="City">
+                            <select class="padding-left-1" name="City" id="City">
                                 <option value="Mehrab">Mehrab</option>
                                 <option value="Suez">Suez</option>
                                 <option value="Ismailia">Ismailia</option>
@@ -112,16 +123,21 @@
                         </div>
                         <div>
                             <div><label for="State">State</label></div>
-                            <select name="State" id="State">
+                            <select class="padding-left-1" name="State" id="State">
                                 <option value="Bozorgi">Bozorgi</option>
                                 <option value="Egypt">Egypt</option>
                             </select>
                         </div>
                     </div>
-                    <div>
+
+                    <div class="password">
                         <div><label for="Password">Password</label></div>
-                        <input type="tel" name="Password" id="Password" placeholder="sbdfbnd65sfdvb s">
+                        <div class="d-flex justify-content-between"><input class="padding-left-1" type="tel"
+                                name="Password" id="Password" placeholder="sbdfbnd65sfdvb s">
+                            <img class="align-self-center margin-bottom-half" src="./images/Checked.png" alt="Checked">
+                        </div>
                     </div>
+
                     <div class="buttons margin-y-3">
                         <button class="padding-x-6 margin-right-2" type="reset">Cancel</button>
                         <button class="padding-x-6" type="submit">Save</button>
